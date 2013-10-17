@@ -13,15 +13,18 @@
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+<!--            android:icon="@drawable/ic_launcher" va abajo xD ahi arriba de app name
+                <category android:name="android.intent.category.LAUNCHER" /> <-ese ba ahi donde dice intent action abajo
+-->
+
     <application
             android:allowBackup="true"
-            android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
             android:theme="@style/Theme_Dark">
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
 
